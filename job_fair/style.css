@@ -1,0 +1,115 @@
+*{
+		margin:  0;
+		padding:  0;
+		font-family: 'Poppins', sans-serif;
+}
+ .header{
+ 		height: 100vh;
+ 		width:  auto;
+ 		max-width: 100%;
+ 		background-image: url(images/banner.png)
+ 		;
+ 		background-position:  top;
+ 		background-size: contain;
+ 		position: relative;
+ 		background-repeat: no-repeat;
+ }
+ nav{
+ 	display: flex;
+ 	padding: 2% 6%;
+ 	justify-content: space-between;
+ 	align-items: center;
+ }
+ nav img{
+ 		width: 500px;
+ }
+ .nav-links{
+ 		flex: 1;
+ 		text-align: right;
+ }
+ .nav-links ul li{
+ 		list-style: none;
+ 		display: inline-block;
+ 		padding: 8px 12px;
+ 		position: relative;
+ }
+ .nav-links ul li a{
+ 		color: #fff;
+ 		text-decoration: none;
+ 		font-size: 20px;
+ }
+ .nav-links ul li:after{
+ 		content: '';
+ 		width: 0%;
+ 		height: 2px;
+ 		background:  #fff;
+ 		display: block;
+ 		margin: auto;
+ 		transition: 0.5s;
+ }
+ .nav-links ul li:hover:after{
+ 		width: 100%;
+ }
+
+/*-----body style-----*/
+
+.job{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+h3{
+	color:  #fff;
+	text-align: center;
+	font-weight: 800;
+	margin:  10px 0;
+	font-size: 26px;
+	line-height: 50px;
+}
+p{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: normal;
+	padding: 10px;
+	text-align: left;
+}
+
+.map{
+	border-radius: 20px;
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.row2{
+	margin-top: 0%;
+	align-content: center;
+	position: center;
+}
+
+.group{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	position: left;
+	overflow: hidden;
+}
+
+.job-info{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	position: center;
+	overflow: hidden;
+}
+.job-info1{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+}
